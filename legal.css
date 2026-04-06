@@ -1,0 +1,126 @@
+/* ========================================
+   Legal Pages — Shared Styles
+   ======================================== */
+
+.legal-header {
+  background: var(--header-gradient);
+  padding: 1.25rem 1.5rem;
+}
+
+.legal-header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.legal-logo-link {
+  display: inline-block;
+}
+
+.legal-logo {
+  width: 130px;
+  height: auto;
+}
+
+.legal-content {
+  padding: 3rem 1.5rem 4rem;
+  background: var(--background);
+}
+
+.legal-container {
+  max-width: 780px;
+  margin: 0 auto;
+  background: var(--surface);
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px var(--shadow);
+}
+
+.legal-container h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.legal-updated {
+  font-size: 0.85rem;
+  color: var(--text-hint);
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--divider);
+}
+
+.legal-container h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.legal-container h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.legal-container p {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  margin-bottom: 0.85rem;
+}
+
+.legal-container ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+  list-style: disc;
+}
+
+.legal-container li {
+  font-size: 0.93rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.35rem;
+}
+
+.legal-container a {
+  color: var(--primary);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.legal-container a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.legal-footer {
+  background: var(--text-primary);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.legal-footer p {
+  font-size: 0.82rem;
+  color: var(--text-hint);
+}
+
+.legal-footer a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.legal-footer a:hover {
+  color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .legal-container {
+    padding: 1.75rem 1.25rem;
+  }
+}
